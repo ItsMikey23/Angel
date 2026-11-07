@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Selamat Ulang Tahun, Angel Viona 🤍</title>
+<title>Selamat Ulang Tahun, Angel Viona </title>
 <meta name="theme-color" content="#fff4ec">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -223,7 +223,7 @@ footer{position:relative;z-index:1;text-align:center;padding:30px 20px 60px;colo
   <div class="reveal">
     <h2>Momen Kita</h2>
     <div class="divider"></div>
-    <p class="sub">Yang nggak akan pernah aku lupa 🤍</p>
+    <p class="sub">Yang nggak akan pernah aku lupa </p>
   </div>
   <div class="timeline" id="momentList"></div>
 </section>
@@ -292,14 +292,14 @@ footer{position:relative;z-index:1;text-align:center;padding:30px 20px 60px;colo
 <!-- ============ 7. PENUTUP ============ -->
 <section id="closing">
   <div class="closing-box reveal" id="closingBox">
-    <h2>Untuk Sahabatku 🤍</h2>
+    <h2>Untuk Sahabatku</h2>
     <div class="divider"></div>
     <div id="closingText"></div>
     <div class="sign">Dari sahabatmu<small id="senderName"></small></div>
   </div>
 </section>
 
-<footer>dibuat dengan sayang · <span id="footYear"></span></footer>
+<footer>Make with Love · <span id="footYear"></span></footer>
 
 <canvas id="confetti" aria-hidden="true"></canvas>
 
@@ -331,7 +331,7 @@ const CONFIG = {
   tanggal: "7 November 2026",
 
   // GANTI: namamu / nama panggilanmu (muncul di tanda tangan)
-  pengirim: "— namamu di sini",
+  pengirim: "— Mike",
 
   // GANTI: URL musik. Bisa nama file lokal (taruh sefolder, mis. "musik.mp3")
   // atau link langsung ke file .mp3. Kosongkan ("") kalau tidak mau musik.
@@ -351,7 +351,7 @@ const CONFIG = {
     { emoji: "🌱", judul: "Pertama Kenal",
       teks: "Kita kenalan lewat Winnie. Kukira waktu itu kita bakalan jaim-jaim, ternyata enggak, wkwkw 😆" },
     { emoji: "🫂", judul: "Saat Aku Butuh Kamu",
-      teks: "Terima kasih selalu mau dengerin curhatanku yang nggak jelas itu, wkwkw 🤍" }
+      teks: "Terima kasih selalu mau dengerin curhatanku yang nggak jelas itu, wkwkw " }
   ],
 
   // GANTI: pesan & doa (tulis dengan gayamu sendiri, jangan lupa pakai aku/kamu atau lo/gue)
@@ -360,17 +360,17 @@ const CONFIG = {
     "Semoga di umur yang baru ini, semua hal baik datang ke kamu: sehat, bahagia, rezeki lancar, dan hati yang selalu tenang.",
     "Semoga mimpi-mimpimu satu per satu jadi nyata, dan kamu selalu dikelilingi orang-orang yang tulus sayang sama kamu.",
     "GANTI: tulis doa atau pesan personal yang cuma kamu yang bisa bilang ke Angel.",
-    "Jangan pernah ngerasa sendirian ya. Apa pun yang terjadi, aku selalu ada di sisimu. Selamat ulang tahun, Angel 🤍"
+    "Jangan pernah ngerasa sendirian ya. Apa pun yang terjadi, aku selalu ada di sisimu. Selamat ulang tahun, Angel "
   ],
 
   // Teks yang muncul setelah semua lilin padam
-  teksSetelahTiup: "Semoga semua harapanmu terkabul 🤍",
+  teksSetelahTiup: "Semoga semua harapanmu terkabul ",
 
   // GANTI: pesan penutup (satu string per paragraf)
   penutup: [
     "Persahabatan kita nggak selalu tentang momen besar. Kadang cuma tentang chat tengah malam, tawa yang pecah tiba-tiba, dan diam yang nyaman.",
     "Terima kasih sudah jadi kamu. Terima kasih sudah memilih bertahan. Aku bersyukur banget dipertemukan denganmu.",
-    "Selamat ulang tahun, Angel Viona. Aku sayang kamu, sahabatku. 🤍"
+    "Selamat ulang tahun, Angel Viona. Aku sayang kamu, sahabatku. "
   ]
 };
 
@@ -403,11 +403,11 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
   addWord(CONFIG.namaBelakang, 'name2');
   h1.setAttribute('aria-label', CONFIG.namaDepan + ' ' + CONFIG.namaBelakang);
 
-  $('#heroSub').textContent = 'Selamat Ulang Tahun ke-' + CONFIG.umur + ', sahabatku 🤍';
+  $('#heroSub').textContent = 'Selamat Ulang Tahun ke-' + CONFIG.umur + ', sahabatku ';
   $('#dateChip').textContent = '🎂 ' + CONFIG.tanggal;
   $('#senderName').textContent = CONFIG.pengirim;
   $('#footYear').textContent = CONFIG.tanggal;
-  document.title = 'Selamat Ulang Tahun, ' + CONFIG.namaDepan + ' ' + CONFIG.namaBelakang + ' 🤍';
+  document.title = 'Selamat Ulang Tahun, ' + CONFIG.namaDepan + ' ' + CONFIG.namaBelakang + ' ';
 
   // Placeholder gambar pastel (data-URI SVG) kalau foto belum ada
   const palette = [['#ffd9e0','#ffe9d6'],['#ffe9d6','#fdf0c8'],['#f8d9ee','#ffe0e6'],['#ffe3d1','#ffd0da'],['#fdeee2','#f7c6d0'],['#ffe9d6','#f8d9ee']];
